@@ -1,1 +1,1 @@
-# web-worker-demo
+Please read this for the details
