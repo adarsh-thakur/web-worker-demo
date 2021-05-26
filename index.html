@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Worker Example</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="buttonWrapper">
+            <button style="background-color: green;" onclick="startWork()">Start The Work</button>
+            <button style="background-color: yellow;" onclick="sendMessage()">Send The Message</button>
+            <button style="background-color: red;" onclick="stopWork()">Stop The Work</button>
+            <div class="messageWarpper">Message: <span id="workerMessage">No Message for now!</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

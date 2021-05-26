@@ -1,0 +1,32 @@
+
+        .wrapper {
+            height: 100%;
+            width: 100%;
+        }
+
+        .buttonWrapper {
+            height: 50%;
+            width: 50%;
+            margin: 300px auto;
+        }
+
+        .buttonWrapper>button {
+            padding: 15px;
+            margin: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            box-shadow: 1px 1px #e6e6ee;
+            border-radius: 2px;
+        }
+
+        .messageWarpper {
+            margin: 10px;
+            font-size: 14px;
+        }
+
+        #workerMessage {
+            font-size: 16px;
+            font-weight: 600;
+        }
